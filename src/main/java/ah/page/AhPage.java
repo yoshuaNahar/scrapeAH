@@ -46,7 +46,7 @@ public final class AhPage {
 
 	private static WebDriver initWebDriver() {
 		System.setProperty("webdriver.chrome.driver",
-				"C://Users//Yoshua Nahar//Desktop//Doing Now//Udemy - Java JPA & Hibernate//Workspace//selenium//chromedriver_win32//chromedriver.exe");
+				"C://Users//Yoshua Nahar//Documents//GitHub//scrapeAH//chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().setSize(new Dimension(1366, 768));
 		driver.get("https://ah.nl");
