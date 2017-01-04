@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>165</x>
+      <y>185</y>
+      <w>85</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>/Element/
+--
+- driver: WebDriver
+# element: WebElement
+--
+# setElement(String path): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>255</y>
+      <w>115</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>/LinkElement/
+--
+~ page: AhPage
+--
+/+ nextPageIs(): ContentPage/
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>290</x>
+      <y>255</y>
+      <w>115</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>/TextElement/
+--
+--
+# getText(): String
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>325</y>
+      <w>115</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>/AnchorElement/
+--
+--
++ click(): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>145</x>
+      <y>325</y>
+      <w>115</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>/SearchElement/
+--
+--
++ insert(String string): void
++ submit(): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>130</x>
+      <y>230</y>
+      <w>85</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>150.0;10.0;150.0;30.0;10.0;30.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>200</x>
+      <y>230</y>
+      <w>160</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0;300.0;30.0;300.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>60</x>
+      <y>285</y>
+      <w>80</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>140.0;10.0;140.0;40.0;10.0;40.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>125</x>
+      <y>285</y>
+      <w>85</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0;150.0;40.0;150.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>445</y>
+      <w>110</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Product
+--
+--
++nextPageIs(): ContentPage</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>405</y>
+      <w>130</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Package::content.searchcontent
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>175</x>
+      <y>445</y>
+      <w>110</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Product
+--
+--
++n extPageIs(): ContentPage</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>425</x>
+      <y>415</y>
+      <w>250</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Package::leftsidebar
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>295</x>
+      <y>445</y>
+      <w>110</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>HeleAssortiment
+--
+- visible: boolean
+--
++ nextPageIs(): ContentPage
+- checkVisible(int nth): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>60</x>
+      <y>355</y>
+      <w>35</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0;50.0;80.0;50.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>60</x>
+      <y>355</y>
+      <w>180</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0;340.0;80.0;340.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>60</x>
+      <y>355</y>
+      <w>300</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0;580.0;80.0;580.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>165</x>
+      <y>405</y>
+      <w>250</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Package::content.productencontent
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>435</x>
+      <y>440</y>
+      <w>110</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Producten
+--
+--
++ nextPageIs(): ContentPage</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>555</x>
+      <y>440</y>
+      <w>110</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>SearchBar
+--
+--
++ nextPageIs(): ContentPage</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>195</x>
+      <y>355</y>
+      <w>430</w>
+      <h>95</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;840.0;50.0;840.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>345</x>
+      <y>385</y>
+      <w>155</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;290.0;20.0;290.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>740</x>
+      <y>175</y>
+      <w>945</w>
+      <h>375</h>
+    </coordinates>
+    <panel_attributes>Package::Element
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>175</y>
+      <w>705</w>
+      <h>375</h>
+    </coordinates>
+    <panel_attributes>Package::element
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1185</x>
+      <y>210</y>
+      <w>120</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>/Content/
+--
+~ driver: WebDriver
+~ page: AhPage
+--
++ previousContent(): ContentPage</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>765</x>
+      <y>205</y>
+      <w>180</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>AhPage
+--
+- driver: WebElement
+
+- leftSideBar: LeftSideBar
+- mainContent: AbstractContent
+--
++ previousPage(): void
++ exit(): void
++ setContent(ContentPage content): void
++ getContent(): Content
+- initWebDriver(): WebDriver</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>970</x>
+      <y>205</y>
+      <w>180</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>LeftSideBar
+--
+- searchBar: SearchBar
+- producten: Prodcuten
+--
++ getSearchBar(): SearchBar
++ getProducten(): Producten
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1245</x>
+      <y>250</y>
+      <w>15</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1330</x>
+      <y>205</y>
+      <w>260</w>
+      <h>95</h>
+    </coordinates>
+    <panel_attributes>ContentFactory
+--
+--
+
+{innerclass
+enum MainContentPage
+SEARCH, PRODUCTEN, PRODUCT, HOME
+innerclass}
+
++ getContent(ContentPage content, WebDriver driver, AhPage page): Content
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1120</x>
+      <y>325</y>
+      <w>60</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>HomeContent
+--
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1195</x>
+      <y>325</y>
+      <w>60</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>ProductContent
+--
+--
+...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1270</x>
+      <y>325</y>
+      <w>125</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>ProductenContent
+--
+--
++getFirstProduct(): Product
++getNthProduct(int nth): Product
++getProduct(String name): Product
++getFirstCategory(): Category
++getNthCategory(int nth): Category
++getCategory(String name): Category</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1270</x>
+      <y>295</y>
+      <w>65</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;110.0;20.0;110.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1150</x>
+      <y>295</y>
+      <w>135</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>250.0;20.0;10.0;20.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1220</x>
+      <y>300</y>
+      <w>15</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>940</x>
+      <y>245</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>940</x>
+      <y>185</y>
+      <w>255</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;90.0;40.0;90.0;40.0;10.0;480.0;10.0;480.0;90.0;490.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>915</x>
+      <y>145</y>
+      <w>425</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;120.0;10.0;10.0;790.0;10.0;790.0;140.0;830.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>360</x>
+      <y>125</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>I left out final classes, because 
+those are just element classes.</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
